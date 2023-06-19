@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-bar img {
+    height: 30px;
+    width: 98px
+}
+.nav-bar li{
+    margin-left: 100px;
+}
+.nav-bar li a button {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: Arial;
+    border: none;
+    text-transform: capitalize;
+    transition: 0.5s all ease;
+}
+.nav-bar li a button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.home {
+    background-color: rgb(242, 242, 242);
+    background-size: 100% 100%;
+    height: 101vb;
+}
+.home .container .img img {
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.home .container .text h1 {
+    float: right;
+    color: black;
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 230px;
+    margin-right: 55px;
+    margin-bottom: 50px;
+}
+.home .container .text p {
+    color: black;
+    font-family: Arial;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.products {
+    background-size: 100% 100%;
+    height: 101vh;
+}
+.products .container .designi img {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.products .container .designh{
+    width: 500px;
+    float: right;
+    margin-right: 330px;
+    margin-top: 100px;
+}
+.products .container .designh h2{
+    color: black;
+    font-family: Arial;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.products .container .designh p{
+    color: black;
+    font-family: Arial;
+    line-height: 22px;
+}
+.products .container .architecti img {
+    float: right;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.products .container .architecth{
+    float: left;
+    width: 500px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.products .container .architecth h2{
+    color: black;
+    font-family: Arial;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.products .container .architecth p{
+    color: black;
+    font-family: Arial;
+    line-height: 22px;
+}
+.products .container .mediai img {
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.products .container .mediah{
+    float: right;
+    margin-right: 230px;
+    margin-top: 0px;
+    width: 500px;
+}
+.products .container .mediah h2{
+    color: black;
+    font-family: Arial;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.products .container .mediah p{
+    color: black;
+    font-family: Arial;
+    line-height: 22px;
+}
+
+.reviews {
+    background-color: rgb(242, 242, 242);
+    background-size: 100% 100%;
+    height: 102vh;
+    
+}
+.reviews .heading{
+    color: black;
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    padding-top: 5px;
+}
+.reviews .star{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reviews .container1 {
+    margin-top: 0px;
+    display: flex;
+}
+.reviews .r1{
+    font-family: Arial;
+    border: 3px solid black;
+    /* border-radius: 30px; */
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.4);
+    transition: box-shadow 0.5s;
+    margin-left: 140px;
+}
+.reviews .r1:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 1.2);
+}
+.reviews .c1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.reviews .r2{
+    font-family: Arial;
+    border: 3px solid black;
+    /* border-radius: 30px; */
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.4);
+    transition: box-shadow 0.5s;
+    margin-left: 140px;
+}
+.reviews .r2:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 1.2);
+}
+.reviews .c2{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.reviews .container2 {
+    margin-top: 100px;
+    display: flex;
+}
+.reviews .r3{
+    font-family: Arial;
+    border: 3px solid black;
+    /* border-radius: 30px; */
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.4);
+    transition: box-shadow 0.5s;
+    margin-left: 140px;
+}
+.reviews .r3:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 1.2);
+}
+.reviews .c3{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.reviews .r4{
+    font-family: Arial;
+    border: 3px solid black;
+    /* border-radius: 30px; */
+    width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    box-shadow: 3px 3px 3px rgba(3, 3, 3, 0.4);
+    transition: box-shadow 0.5s;
+    margin-left: 140px;
+}
+.reviews .r4:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 1.2);
+}
+.reviews .c4{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.price {
+    background-size: 100% 100%;
+    height: 101vh;
+}
+.price .heading{
+    color: black;
+    font-family: Arial;
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+.price .container{
+    display: flex;
+    margin-left: 150px;
+}
+.price .p1{
+    width: 250px;
+    transition: box-shadow 0.5s;
+}
+.price .p1:hover{
+    box-shadow: -10px 10px 10px rgba(10, 10, 10, 1.2);
+}
+.price .plan1h{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.price .p1 .line{
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.price .plan1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.price .plan1 .cost{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.price .plan1 p{
+    line-height: 30px;
+}
+.price .plan1 button{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.5s;
+}
+.price .plan1 button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.price .p2{
+    width: 250px;
+    transition: box-shadow 0.5s;
+}
+.price .p2:hover{
+    box-shadow: 10px -10px 10px rgba(10, 10, 10, 1.2);
+}
+.price .plan2h{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.price .p2 .line{
+    background-color:black;
+    height: 3px;
+    width: 250px;
+}
+.price .plan2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.price .plan2 .cost{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.price .plan2 p{
+    line-height: 30px;
+}
+.price .plan2 button{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.5s;
+}
+.price .plan2 button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.price .p3{
+    width: 250px;
+    transition: box-shadow 0.5s;
+}
+.price .p3:hover{
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 1.2);
+}
+.price .plan3h{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.price .p3 .line{
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.price .plan3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.price .plan3 .cost{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.price .plan3 p{
+    line-height: 30px;
+}
+.price .plan3 button{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.5s;
+}
+.price .plan3 button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.price .p4{
+    width: 250px;
+    transition: box-shadow 0.5s;
+}
+.price .p4:hover{
+    box-shadow: 10px -10px 10px rgba(10, 10, 10, 1.2);
+}
+.price .plan4h{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.price .p4 .line{
+    background-color:black;
+    height: 3px;
+    width: 250px;
+}
+.price .plan4{
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.price .plan4 .cost{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.price .plan4 p{
+    line-height: 30px;
+    color: black;
+}
+.price .plan4 button{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: transform 0.5s;
+}
+.price .plan4 button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.contacts {
+    background-color: rgb(242, 242, 242);
+    background-size: 100% 100%;
+    height: 101vh;
+}
+.contacts .heading{
+    color: black;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.contacts .container{
+    display: flex;
+    margin-left: 100px;
+}
+
+.contacts .c1{
+    text-align: left;
+}
+.contacts .fname{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.contacts .fname p{
+    margin-bottom: 20px;
+}
+.contacts .fname input{
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 150px;
+}
+
+.contacts .c2{
+    text-align: left;
+    margin-left: 20px;
+}
+.contacts .lname{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.contacts .lname p{
+    margin-bottom: 20px;
+}
+.contacts .lname input{
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 150px;
+}
+
+.contacts .c3{
+    text-align: left;
+    margin-left: 20px;
+}
+.contacts .email{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.contacts .email p{
+    margin-bottom: 20px;
+}
+.contacts .email input{
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 150px;
+}
+
+.contacts .container2 {
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.contacts .container2 input{
+    margin-top: 20px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 863px;
+}
